@@ -5561,6 +5561,10 @@ textarea.form-control-lg {
   border-style: solid;
 }
 
+.letra{
+  font-style: italic;
+}
+
 .bs-tooltip-top, .bs-tooltip-auto[data-popper-placement^=top] {
   padding: 0.4rem 0;
 }
@@ -7392,7 +7396,7 @@ textarea.form-control-lg {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #000000 !important;
 }
 
 .text-black-50 {
@@ -7408,7 +7412,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #e74fe7e6 !important;
+  background-color: #dd69dde6 !important;
 }
 
 .bg-secondary {
@@ -7432,7 +7436,7 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #6c757d !important;
 }
 
 .bg-dark {
@@ -11004,7 +11008,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(231, 79, 231, 0.9);
+  background: rgba(233, 97, 233, 0.459);
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -11024,8 +11028,47 @@ header.masthead h1, header.masthead .h1 {
 .redes {
   display: flex;
   text-decoration:none;
+  line-height: 1;
+  font-size: 20px;
+  margin: 5px;
 }
 
 .instagram:hover{
   color: pink;
+}
+
+.bi-instagram{
+  background-color: var(--instagram);
+}
+
+.zoom{
+  transition: .5s ease;
+ 	-moz-transition: .5s ease;
+ 	-webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  -ms-transition: .5s ease;
+}
+
+.zoom:hover{
+  transform : scale(1.2);
+  -moz-transform : scale(1.2);
+  -webkit-transform : scale(1.2);
+  -o-transform : scale(1.2);
+  -ms-transform : scale(1.2);
+}
+
+.titulo{
+  transition: .5s ease;
+ 	-moz-transition: .5s ease;
+ 	-webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  -ms-transition: .5s ease;
+}
+
+.titulo:hover{
+  transform : scale(1.2);
+  -moz-transform : scale(1.2);
+  -webkit-transform : scale(1.2);
+  -o-transform : scale(1.2);
+  -ms-transform : scale(1.2);
 }
