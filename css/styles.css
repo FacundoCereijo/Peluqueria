@@ -11033,14 +11033,6 @@ header.masthead h1, header.masthead .h1 {
   margin: 5px;
 }
 
-.instagram:hover{
-  color: pink;
-}
-
-.bi-instagram{
-  background-color: var(--instagram);
-}
-
 .zoom{
   transition: .5s ease;
  	-moz-transition: .5s ease;
@@ -11071,4 +11063,26 @@ header.masthead h1, header.masthead .h1 {
   -webkit-transform : scale(1.2);
   -o-transform : scale(1.2);
   -ms-transform : scale(1.2);
+}
+
+@media (min-width: 801px) {
+  .iconos{
+    filter: grayscale(100%);
+    transition: all .3s ease;
+    margin: 10px;
+    width:130px;
+    height:auto
+  }
+  
+  .iconos:hover{
+    filter: grayscale(0%);
+  }
+}
+
+@media (min-width: 320px) {
+  .iconosResponsive {
+    max-width: 80px;
+    height: auto;
+    padding: 10px;
+  }
 }
